@@ -307,8 +307,8 @@ function getHandler(options, proxy) {
             cors_headers["Content-Type"] = "application/json";
             res.writeHead(200, cors_headers);
             res.end(JSON.stringify({
-                usage: "Host/{URL}",
-                source: "https://github.com/netnr/proxy"
+                usage: "/{URL}",
+                source: "请你立即退出"
             }));
             return;
         }
